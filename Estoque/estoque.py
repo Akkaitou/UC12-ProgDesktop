@@ -10,7 +10,11 @@ codigo = input("Digite o código do produto: ")
 nome = input("Digite o nome do produto: ")
 preco = float(input("Digite o preço do produto: "))
 quantidade = int(input("Digite a quantidade em estoque: "))
-estoque_minimo = int(input("Digite o estoque mínimo: "))
+estoque_minimo = 5
+
+# cálculos
+valor_total_estoque = preco * quantidade
+print("O valor total do estoque é: R$", valor_total_estoque)
 
 #ficha produto
 print()
