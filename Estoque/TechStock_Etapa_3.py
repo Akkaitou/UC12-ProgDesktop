@@ -1,7 +1,6 @@
 # ============================================
 # TechStock - Controle de estoque TechPoint
 # Aluno(a): Raul CM
-# Etapa 3 - Listas
 # ============================================
 
 produtos = []
